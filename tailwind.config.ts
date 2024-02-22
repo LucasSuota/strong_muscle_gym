@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         lexend: "Lexend",
-        lexendTera: "LexendTera",
+        lexendtera: "LexendTera",
       },
       colors: {
         red_primary: "#cb011b",
@@ -23,6 +23,7 @@ const config: Config = {
         smtitles: "20px",
         smsubtitles: "16px",
         smp: "14px",
+        details: "13px",
       },
     },
   },
