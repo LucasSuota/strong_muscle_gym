@@ -8,10 +8,21 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        lexend: "Lexend",
+        lexendTera: "LexendTera",
+      },
+      colors: {
+        red_primary: "#cb011b",
+        black_primary: "#202020",
+      },
+      fontSize: {
+        titles: "26px",
+        subtitles: "20px",
+        p: "16px",
+        smtitles: "20px",
+        smsubtitles: "16px",
+        smp: "14px",
       },
     },
   },
