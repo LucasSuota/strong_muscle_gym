@@ -28,3 +28,12 @@ export const planPrice = [
   { title: "Trimestral", installments: 3, price: "109.90", off: 8.5 },
   { title: "Mensal", price: "119.90" },
 ];
+
+export const ratingList = [
+  {
+    text: "Academia está ficando cada vez melhor, muitas maquinas e equipamentos novos desde que trocou a gestão. E disseram que ainda tem muito mais pra chegar!",
+  },
+  {
+    text: "Excelente. Academia muito boa. Professores. Donos da academia. Todos educados. E a academia cada vez mais equipada vindo novos aparelhos.",
+  },
+];
