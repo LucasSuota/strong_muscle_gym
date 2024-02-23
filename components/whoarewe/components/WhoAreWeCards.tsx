@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const WhoAreWeCards = () => {
   return (
-    <section className="w-3/5 mx-auto flex sm:flex-row flex-col sm:text-subtitles sm:gap-0 gap-[100px] text-smp">
+    <section className="w-3/5 mx-auto flex sm:flex-row flex-col sm:text-subtitles sm:gap-0 gap-[100px] text-smp sm:mb-40 mb-20">
       <div className="sm:w-[35%] w-full h-[200px] sm:h-[400px] mx-auto">
         <div
           className="sm:px-10 mx-auto w-full h-full sm:w-full sm:h-full"
@@ -32,7 +32,7 @@ const WhoAreWeCards = () => {
         />
         <h3 className="sm:w-full font-lexend text-black_primary">
           Nós vamos tranformalo em um{" "}
-          <span className="font-bold text-red_primary">MONSTRO</span>
+          <span className="font-bold text-red_primary">MONSTRO</span>.
         </h3>
       </div>
     </section>
