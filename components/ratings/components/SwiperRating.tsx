@@ -17,7 +17,7 @@ const SwiperRating = () => {
           disableOnInteraction: true,
         }}
         modules={[Autoplay]}
-        className="sm:hidden sm:w-4/5 w-4/5 h-[400px] p-10 flex flex-col items-center justify-between"
+        className="sm:hidden sm:w-4/5 w-4/5 p-10 flex flex-col items-center justify-between"
       >
         {ratingList.map((rating, index) => (
           <SwiperSlide
@@ -25,7 +25,7 @@ const SwiperRating = () => {
             className="w-1/5 flex flex-col items-center justify-between p-10 bg-black_primary"
           >
             <div className="w-1/5 h-[5px] bg-red_primary mb-20 mt-10" />
-            <p className="text-white font-lexend text-subtitles">
+            <p className="text-white font-lexend sm:text-subtitles text-smsubtitles">
               {rating.text}
             </p>
             <Image
