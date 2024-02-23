@@ -16,3 +16,15 @@ export const imageCards = [
   { photo: "/images/ImageCard/lounge.png", text: "Lounge para refeições" },
   { photo: "/images/ImageCard/lanchonete.png", text: "Lanchonete Fitness" },
 ];
+
+export const planPrice = [
+  {
+    title: "Semestral",
+    best: true,
+    installments: 6,
+    price: "99.90",
+    off: 16.6,
+  },
+  { title: "Trimestral", installments: 3, price: "109.90", off: 8.5 },
+  { title: "Mensal", price: "119.90" },
+];
