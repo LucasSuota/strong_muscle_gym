@@ -14,7 +14,7 @@ const config: Config = {
       },
       colors: {
         red_primary: "#cb011b",
-        black_primary: "#202020",
+        black_primary: "#101010",
       },
       fontSize: {
         titles: "26px",
