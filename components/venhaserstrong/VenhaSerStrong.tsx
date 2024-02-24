@@ -6,7 +6,7 @@ const VenhaSerStrong = () => {
   return (
     <section className="w-full mx-auto flex flex-col items-center justify-center">
       <div className="w-full flex ite ms-center justify-center mx-auto p-10 mt-10">
-        <h3 className="font-bold font-lexendtera sm:text-titles text-smtitles text-black_primary">
+        <h3 className="font-bold font-lexendtera sm:text-titles text-smsubtitles text-center text-black_primary">
           TÁ ESPERANDO O QUE? VEM PRA{" "}
           <span className="text-red_primary">STRONG</span>
         </h3>
@@ -36,7 +36,7 @@ const VenhaSerStrong = () => {
       </div>
       <DefaultButton text="QUERO SER STRONG" />
       <div className="w-full mt-20 ">
-        <p className="font-lexend text-subtitles text-red_primary font-bold text-center">
+        <p className="font-lexend sm:text-subtitles text-smsubtitles text-red_primary font-bold text-center mb-10">
           Rua Virgínia Dalabona, 100, Curitiba
         </p>
         <iframe

@@ -10,17 +10,17 @@ const PriceCard = ({
   return (
     <div className="w-full flex items-center sm:flex-col flex-row mx-auto">
       <div className="sm:w-4/5 w-2/4 sm:h-[150px] h-[150px] flex flex-col items-center justify-center bg-red_primary ">
-        <p className="font-lexendtera text-white sm:text-subtitles text-p font-bold uppercase">
+        <p className="font-lexendtera text-white sm:text-subtitles text-smp font-bold uppercase">
           {title}
         </p>
         {best && (
-          <p className="text-black_primary font-lexendtera sm:text-p text-smp font-bold">
+          <p className="text-black_primary font-lexendtera sm:text-p text-smp text-center font-bold">
             MELHOR OPÇÃO
           </p>
         )}
       </div>
       <div className="sm:w-4/5 w-2/4 sm:h-[350px] h-[150px] bg-black_primary flex flex-col items-center justify-center hover:border-8 hover:border-red_primary transition-all">
-        <p className="font-lexendtera text-white sm:text-subtitles text-smsubtitles uppercase font-bold">
+        <p className="font-lexendtera text-white sm:text-subtitles text-smp uppercase font-bold">
           R${price}
         </p>
         {installments && (
