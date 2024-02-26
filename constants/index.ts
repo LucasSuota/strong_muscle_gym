@@ -14,7 +14,6 @@ export const imageCards = [
     text: "Consultório para atendimento",
   },
   { photo: "/images/ImageCard/lounge.png", text: "Lounge para refeições" },
-  { photo: "/images/ImageCard/lanchonete.png", text: "Lanchonete Fitness" },
 ];
 
 export const planPrice = [

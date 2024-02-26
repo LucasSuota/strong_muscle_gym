@@ -25,6 +25,9 @@ const config: Config = {
         smp: "14px",
         details: "13px",
       },
+      letterSpacing: {
+        all: "40px",
+      },
     },
   },
   plugins: [],
