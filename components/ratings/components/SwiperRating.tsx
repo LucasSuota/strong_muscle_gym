@@ -13,7 +13,7 @@ const SwiperRating = () => {
         slidesPerView={1}
         spaceBetween={30}
         autoplay={{
-          delay: 2500,
+          delay: 4000,
           disableOnInteraction: true,
         }}
         modules={[Autoplay]}

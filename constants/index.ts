@@ -35,4 +35,10 @@ export const ratingList = [
   {
     text: "Excelente. Academia muito boa. Professores. Donos da academia. Todos educados. E a academia cada vez mais equipada vindo novos aparelhos.",
   },
+  {
+    text: "Ta pensando em treinar aki? Recomendo Academia bem pensada em tudo Otimos aparelhos e nao cobra taxa de personal Equipe muito simpatica.",
+  },
+  {
+    text: "Fui nessa academia para uma aula experimental e gostei bastante do local equipamentos muito bons e professores bem anteciosos para ajudar pretendo me ingressar nela.",
+  },
 ];
